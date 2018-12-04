@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace XBlast2018
 {
@@ -9,13 +10,36 @@ namespace XBlast2018
     /// </summary>
     public class Game1 : Game
     {
+        private const int BLOCK_WIDTH = 64;
+        private const int BLOCK_HEIGHT = 48;
+        private const int GRID_WIDTH = 13;
+        private const int GRID_HEIGHT = 11;
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        Texture2D _freeBlock;
+        Texture2D _indestructibleBlock;
+        Texture2D _redRectangle;
+        PlayerTextures _playerTexture;
+        Directions _previousDirection;
+        Vector2 _playerPosition;
+        float _playerMoveSpeed;
+
+        Texture2D[,] _grid;
+
+        KeyboardState _currentKeyboardState;
         
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = false;
+            graphics.PreferredBackBufferWidth = BLOCK_WIDTH * GRID_WIDTH;
+            graphics.PreferredBackBufferHeight = BLOCK_HEIGHT * GRID_HEIGHT;
+            graphics.ApplyChanges();
             Content.RootDirectory = "Content";
+            _playerTexture = new PlayerTextures(Players.PLAYER1, this.Content);
+            _grid = new Texture2D[GRID_HEIGHT, GRID_WIDTH];
         }
 
         /// <summary>
@@ -26,7 +50,11 @@ namespace XBlast2018
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            _playerMoveSpeed = 2.0f;
+            _previousDirection = Directions.S;
+            _playerPosition = new Vector2(BLOCK_WIDTH * GRID_WIDTH / 2, BLOCK_HEIGHT * GRID_HEIGHT / 2);
+
+            _redRectangle = this.Content.Load<Texture2D>("images/misc/redRectangle");
 
             base.Initialize();
         }
@@ -37,10 +65,25 @@ namespace XBlast2018
         /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            _freeBlock = this.Content.Load<Texture2D>("images/block/000_iron_floor");
+            _indestructibleBlock = this.Content.Load<Texture2D>("images/block/002_dark_block");
+
+            for (int col = 0; col < GRID_HEIGHT; col++)
+            {
+                for (int row = 0; row < GRID_WIDTH; row++)
+                {
+                    if (row == 0 || row == GRID_WIDTH - 1 || col == 0 || col == GRID_HEIGHT - 1)
+                    {
+                        _grid[col, row] = _indestructibleBlock;
+                    }
+                    else
+                    {
+                        _grid[col, row] = _freeBlock;
+                    }
+                }
+            }
         }
 
         /// <summary>
@@ -49,7 +92,7 @@ namespace XBlast2018
         /// </summary>
         protected override void UnloadContent()
         {
-            // TODO: Unload any non ContentManager content here
+            Content.Unload();
         }
 
         /// <summary>
@@ -61,10 +104,27 @@ namespace XBlast2018
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            
+            _currentKeyboardState = Keyboard.GetState();
 
-            // TODO: Add your update logic here
+            float nextX = 0, nextY = 0;
 
-            base.Update(gameTime);
+            if (_currentKeyboardState.IsKeyDown(Keys.Up))
+                nextY -= _playerMoveSpeed;
+            if (_currentKeyboardState.IsKeyDown(Keys.Down))
+                nextY += _playerMoveSpeed;
+            if (_currentKeyboardState.IsKeyDown(Keys.Right))
+                nextX += _playerMoveSpeed;
+            if (_currentKeyboardState.IsKeyDown(Keys.Left))
+                nextX -= _playerMoveSpeed;
+
+            if (IsWalkable(_playerPosition.X + nextX, _playerPosition.Y + nextY))
+            {
+                _playerPosition.X += nextX;
+                _playerPosition.Y += nextY;
+            }
+
+                base.Update(gameTime);
         }
 
         /// <summary>
@@ -75,9 +135,44 @@ namespace XBlast2018
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            for (int col = 0; col < GRID_HEIGHT; col++)
+            {
+                for (int row = 0; row < GRID_WIDTH; row++)
+                {
+                    spriteBatch.Draw(_grid[col, row], new Vector2(row * BLOCK_WIDTH, col * BLOCK_HEIGHT), Color.White);
+                }
+            }
+
+            Directions currentDirection = Directions.Idle;
+
+            if (_currentKeyboardState.IsKeyDown(Keys.Up))
+                currentDirection = Directions.N;
+            if (_currentKeyboardState.IsKeyDown(Keys.Down))
+                currentDirection = Directions.S;
+            if (_currentKeyboardState.IsKeyDown(Keys.Right))
+                currentDirection = Directions.E;
+            if (_currentKeyboardState.IsKeyDown(Keys.Left))
+                currentDirection = Directions.W;
+
+            _previousDirection = currentDirection;
+            Texture2D currentPlayer = _playerTexture.GetTexture(currentDirection);
+
+            spriteBatch.Draw(currentPlayer, _playerPosition, Color.White);
+            spriteBatch.Draw(_redRectangle, _playerPosition, Color.White);
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        private bool IsWalkable(float xPos, float yPos)
+        {
+            int x = (int)xPos / BLOCK_WIDTH;
+            int y = ((int)yPos / BLOCK_HEIGHT) + 1;
+
+            return _grid[y, x] == _freeBlock && _grid[y, x + 1] == _freeBlock;
         }
     }
 }
