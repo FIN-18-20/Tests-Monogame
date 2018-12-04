@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace FirstGame
+namespace TUTO3
 {
     /// <summary>
     /// This is the main type for your game.
@@ -11,15 +11,14 @@ namespace FirstGame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Texture2D texture;
+        Texture2D img;
         Vector2 position;
-        
+        Vector2 origin;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            this.IsFixedTimeStep = true;
-            this.TargetElapsedTime = new System.TimeSpan(0,0,0,0,33);
         }
 
         /// <summary>
@@ -31,22 +30,10 @@ namespace FirstGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            position = new Vector2(0, 0);
-            texture = new Texture2D(this.GraphicsDevice, 100, 200);
-            Color[] colorData = new Color[100 * 200];
-            for (int i = 0; i < 20000; i++)
-            {
-                if (i % 7 == 0)
-                {
-                    colorData[i] = Color.Red;
-                }
-                else
-                {
-                    colorData[i] = Color.Blue;
-                }
-            }
-            texture.SetData<Color>(colorData);
+
             base.Initialize();
+            position = new Vector2(graphics.GraphicsDevice.Viewport.Width/2, GraphicsDevice.Viewport.Height / 2);
+            origin = new Vector2(450, 205);
         }
 
         /// <summary>
@@ -57,6 +44,7 @@ namespace FirstGame
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            img = this.Content.Load<Texture2D>("tfm1");
 
             // TODO: use this.Content to load your game content here
         }
@@ -80,12 +68,25 @@ namespace FirstGame
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
-            position.X += 60.0f * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if (position.X > this.GraphicsDevice.Viewport.Width)
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Up))
+                position.Y -= 10;
+            if (Keyboard.GetState().IsKeyDown(Keys.Down))
+                position.Y += 10;
+            if (Keyboard.GetState().IsKeyDown(Keys.Left))
+                position.X -= 10;
+            if (Keyboard.GetState().IsKeyDown(Keys.Right))
+                position.X += 10;
+
+            MouseState state = Mouse.GetState();
+
+            if (Keyboard.GetState().IsKeyDown(Keys.F))
             {
-                position.X = 0;
+                position.X = state.X;
+                position.Y = state.Y;
             }
+
+            // TODO: Add your update logic here
 
             base.Update(gameTime);
         }
@@ -100,11 +101,9 @@ namespace FirstGame
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, position);
+            spriteBatch.Draw(img, position, origin:origin);
             spriteBatch.End();
 
-            var fps = 1 / gameTime.ElapsedGameTime.TotalSeconds;
-            Window.Title = fps.ToString();
 
             base.Draw(gameTime);
         }
