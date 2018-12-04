@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Game2
+namespace TUTO3
 {
     /// <summary>
     /// This is the main type for your game.
@@ -11,7 +11,10 @@ namespace Game2
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        
+        Texture2D img;
+        Vector2 position;
+        Vector2 origin;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -29,6 +32,8 @@ namespace Game2
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            position = new Vector2(graphics.GraphicsDevice.Viewport.Width/2, GraphicsDevice.Viewport.Height / 2);
+            origin = new Vector2(450, 205);
         }
 
         /// <summary>
@@ -39,6 +44,7 @@ namespace Game2
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            img = this.Content.Load<Texture2D>("tfm1");
 
             // TODO: use this.Content to load your game content here
         }
@@ -62,6 +68,24 @@ namespace Game2
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Up))
+                position.Y -= 10;
+            if (Keyboard.GetState().IsKeyDown(Keys.Down))
+                position.Y += 10;
+            if (Keyboard.GetState().IsKeyDown(Keys.Left))
+                position.X -= 10;
+            if (Keyboard.GetState().IsKeyDown(Keys.Right))
+                position.X += 10;
+
+            MouseState state = Mouse.GetState();
+
+            if (Keyboard.GetState().IsKeyDown(Keys.F))
+            {
+                position.X = state.X;
+                position.Y = state.Y;
+            }
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -76,6 +100,10 @@ namespace Game2
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            spriteBatch.Draw(img, position, origin:origin);
+            spriteBatch.End();
+
 
             base.Draw(gameTime);
         }

@@ -1,8 +1,11 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Game4.Models;
+using Game4.Sprites;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
-namespace FirstGame
+namespace Game4
 {
     /// <summary>
     /// This is the main type for your game.
@@ -11,15 +14,13 @@ namespace FirstGame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Texture2D texture;
-        Vector2 position;
+
+        private List<Sprite> _sprites;
         
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            this.IsFixedTimeStep = true;
-            this.TargetElapsedTime = new System.TimeSpan(0,0,0,0,33);
         }
 
         /// <summary>
@@ -31,21 +32,7 @@ namespace FirstGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            position = new Vector2(0, 0);
-            texture = new Texture2D(this.GraphicsDevice, 100, 200);
-            Color[] colorData = new Color[100 * 200];
-            for (int i = 0; i < 20000; i++)
-            {
-                if (i % 7 == 0)
-                {
-                    colorData[i] = Color.Red;
-                }
-                else
-                {
-                    colorData[i] = Color.Blue;
-                }
-            }
-            texture.SetData<Color>(colorData);
+
             base.Initialize();
         }
 
@@ -58,7 +45,39 @@ namespace FirstGame
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            var animations = new Dictionary<string, Animation>()
+            {
+                { "WalkUp", new Animation(Content.Load<Texture2D>("Player/WalkingUp"), 3) },
+                { "WalkDown", new Animation(Content.Load<Texture2D>("Player/WalkingDown"), 3) },
+                { "WalkLeft", new Animation(Content.Load<Texture2D>("Player/WalkingLeft"), 3) },
+                { "WalkRight", new Animation(Content.Load<Texture2D>("Player/WalkingRight"), 3) },
+            };
+
+            _sprites = new List<Sprite>()
+            {
+                new Sprite(animations)
+                {
+                    Position = new Vector2(100, 100),
+                    Input = new Input()
+                    {
+                        Up = Keys.W,
+                        Down = Keys.S,
+                        Left = Keys.A,
+                        Right = Keys.D
+                    },
+                },
+                new Sprite(animations)
+                {
+                    Position = new Vector2(150, 100),
+                    Input = new Input()
+                    {
+                        Up = Keys.Up,
+                        Down = Keys.Down,
+                        Left = Keys.Left,
+                        Right = Keys.Right
+                    },
+                },
+            };
         }
 
         /// <summary>
@@ -77,15 +96,8 @@ namespace FirstGame
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
-
-            // TODO: Add your update logic here
-            position.X += 60.0f * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if (position.X > this.GraphicsDevice.Viewport.Width)
-            {
-                position.X = 0;
-            }
+            foreach (var sprite in _sprites)
+                sprite.Update(gameTime, _sprites);
 
             base.Update(gameTime);
         }
@@ -98,14 +110,12 @@ namespace FirstGame
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, position);
+
+            foreach (var sprite in _sprites)
+                sprite.Draw(spriteBatch);
+
             spriteBatch.End();
-
-            var fps = 1 / gameTime.ElapsedGameTime.TotalSeconds;
-            Window.Title = fps.ToString();
-
             base.Draw(gameTime);
         }
     }
