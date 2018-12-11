@@ -33,7 +33,7 @@ namespace SpriteDeathAndRespawn.Sprites
             _texure = texture;
         }
 
-        public virtual void Update(GameTime gameTime, List<Sprite> sprite)
+        public virtual void Update(GameTime gameTime, List<Sprite> sprites)
         {
 
         }
