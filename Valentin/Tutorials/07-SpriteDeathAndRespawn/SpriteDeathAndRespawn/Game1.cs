@@ -1,13 +1,19 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
-namespace _05_RotatingSprite
+namespace SpriteDeathAndRespawn
 {
     public class Game1 : Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        public static Random Random;
+
+        public static int ScreenWidth;
+        public static int ScreenHeight;
         
         public Game1()
         {
