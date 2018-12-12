@@ -17,20 +17,20 @@ namespace _2PlayersPongGame.Sprites
         private bool _isPlaying;
 
         public Score Score;
-        public int SpeedIncrementSpan = 10; // tous les combien de temps la vitesse va s'incrémenter (10s)
+        public int SpeedIncrementSpan = 5; // tous les combien de temps la vitesse va s'incrémenter (5s)
 
         public Ball(Texture2D texture) 
             : base(texture)
         {
-            Speed = 3f;
+            Speed = 5f;
         }
 
         public override void Update(GameTime gameTime, List<Sprite> sprites)
         {
-            if (_startPosition == null)
+            if (_startPosition == null) // 1er tour de boucle Update
             {
-                _startPosition = Position;
-                _startSpeed = Speed;
+                _startPosition = Position; // On définit la position initiale
+                _startSpeed = Speed; // On définit la vitesse initiale
 
                 Restart();
             }
@@ -60,6 +60,7 @@ namespace _2PlayersPongGame.Sprites
                     continue;
                 }
 
+                /* Touche un côté des Bat */
                 if (this.Velocity.X > 0 && this.IsTouchingLeft(sprite))
                 {
                     this.Velocity.X = -this.Velocity.X;
@@ -69,6 +70,7 @@ namespace _2PlayersPongGame.Sprites
                     this.Velocity.X = -this.Velocity.X;
                 }
 
+                /* Touche le haut ou le bas des Bat */
                 if (this.Velocity.Y > 0 && this.IsTouchingTop(sprite))
                 {
                     this.Velocity.Y = -this.Velocity.Y;
@@ -97,12 +99,11 @@ namespace _2PlayersPongGame.Sprites
             }
 
             Position += Velocity * Speed;
-
         }
 
         public void Restart()
         {
-            int direction = Game1.Random.Next(0, 4);
+            int direction = Game1.Random.Next(0, 4); // 0 -> 3
 
             switch (direction)
             {
@@ -120,8 +121,8 @@ namespace _2PlayersPongGame.Sprites
                     break;
             }
 
-            Position = (Vector2)_startPosition;
-            Speed = (float)_startSpeed;
+            Position = (Vector2)_startPosition; // repositionne la ball au centre
+            Speed = (float)_startSpeed; // remet la vitesse de la balle initiale
             _timer = 0;
             _isPlaying = false;
         }
