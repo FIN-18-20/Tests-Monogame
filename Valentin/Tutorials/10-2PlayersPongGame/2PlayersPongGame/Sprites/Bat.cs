@@ -14,7 +14,7 @@ namespace _2PlayersPongGame.Sprites
         public Bat(Texture2D texture) 
             : base(texture)
         {
-            Speed = 5f;
+            Speed = 10f;
         }
 
         public override void Update(GameTime gameTime, List<Sprite> sprites)
