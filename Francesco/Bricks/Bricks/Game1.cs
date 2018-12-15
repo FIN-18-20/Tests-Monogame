@@ -12,6 +12,12 @@ namespace Bricks
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         GameContent gameContent;
+
+        private Paddle _paddle;
+        private Wall _wall;
+
+        private int _screenWidth = 0;
+        private int _screenHeight = 0;
         
         public Game1()
         {
@@ -42,6 +48,25 @@ namespace Bricks
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             gameContent = new GameContent(this.Content);
+
+            _screenWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            _screenHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+
+            /*  Set the game to 502x700 or screen max if smaller    */
+            if (_screenWidth >= 502)
+                _screenWidth = 502;
+            if (_screenHeight >= 700)
+                _screenHeight = 700;
+
+            graphics.PreferredBackBufferWidth = _screenWidth;
+            graphics.PreferredBackBufferHeight = _screenHeight;
+            graphics.ApplyChanges();
+
+            /*  Create game objects */
+            int paddleX = (_screenWidth - gameContent.PaddleImg.Width) / 2; // Center the image on the start
+            int paddleY = _screenHeight - 100;  // Paddle will be 100px from the bottom of the screen
+            _paddle = new Paddle(paddleX, paddleY, _screenWidth, spriteBatch, gameContent);
+            _wall = new Wall(1, 50, spriteBatch, gameContent);
         }
 
         /// <summary>
@@ -74,9 +99,12 @@ namespace Bricks
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            _paddle.Draw();
+            _wall.Draw();
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
