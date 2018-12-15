@@ -19,6 +19,8 @@ namespace Bricks
 
         private int _screenWidth = 0;
         private int _screenHeight = 0;
+        private MouseState _oldMouseState;
+        private KeyboardState _oldKeyboardState;
         
         public Game1()
         {
@@ -87,10 +89,24 @@ namespace Bricks
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            if (!IsActive)
+                return;
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            /*  Controllers */
+            KeyboardState newkeyboardState = Keyboard.GetState();
+            MouseState newMouseState = Mouse.GetState();
+
+            /*  Process mouse move  */
+            if(_oldMouseState.X != newMouseState.X)
+            {
+                if (newMouseState.X >= 0 || newMouseState.X < _screenWidth)
+                    _paddle.MoveTo(newMouseState.X);
+            }
+
+            /*  Process keyboard events */
 
             base.Update(gameTime);
         }
