@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Brick.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="GameBorder.cs" />
     <Compile Include="GameContent.cs" />
     <Compile Include="Paddle.cs" />
     <Compile Include="Program.cs" />

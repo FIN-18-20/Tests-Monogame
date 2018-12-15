@@ -15,6 +15,7 @@ namespace Bricks
 
         private Paddle _paddle;
         private Wall _wall;
+        private GameBorder _gameBorder;
 
         private int _screenWidth = 0;
         private int _screenHeight = 0;
@@ -67,6 +68,7 @@ namespace Bricks
             int paddleY = _screenHeight - 100;  // Paddle will be 100px from the bottom of the screen
             _paddle = new Paddle(paddleX, paddleY, _screenWidth, spriteBatch, gameContent);
             _wall = new Wall(1, 50, spriteBatch, gameContent);
+            _gameBorder = new GameBorder(_screenWidth, _screenHeight, spriteBatch, gameContent);
         }
 
         /// <summary>
@@ -104,6 +106,7 @@ namespace Bricks
             spriteBatch.Begin();
             _paddle.Draw();
             _wall.Draw();
+            _gameBorder.Draw();
             spriteBatch.End();
 
             base.Draw(gameTime);
