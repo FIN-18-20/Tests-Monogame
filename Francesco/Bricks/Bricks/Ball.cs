@@ -68,6 +68,7 @@ namespace Bricks
             if (Visible)
                 return;
 
+            PlaySound(gameContent.StartSound);
             Visible = true;
             X = x;
             Y = y;
@@ -88,21 +89,25 @@ namespace Bricks
             {
                 X = 1;
                 XVelocity *= -1;
+                PlaySound(gameContent.WallBounceSound);
             }
             if (X > ScreenWidth - Width + 5)
             {
                 X = ScreenWidth - Width + 5;
                 XVelocity *= -1;
+                PlaySound(gameContent.WallBounceSound);
             }
             if (Y < 1)
             {
                 Y = 1;
                 YVelocity *= -1;
+                PlaySound(gameContent.WallBounceSound);
             }
             if(Y+Height>ScreenHeight)
             {
                 Visible = false;
                 Y = 0;
+                PlaySound(gameContent.MissSound);
                 return false;
             }
 
@@ -113,6 +118,8 @@ namespace Bricks
 
             if(HitTest(paddleRect, ballRect))
             {
+
+                PlaySound(gameContent.PaddleBounceSound);
                 int offset = Convert.ToInt32((paddle.Width - (paddle.X + paddle.Width - X + Width / 2)));
                 offset /= 5;
                 if (offset < 0)
@@ -176,6 +183,7 @@ namespace Bricks
                             Rectangle brickRect = new Rectangle((int)brick.X, (int)brick.Y, (int)brick.Width, (int)brick.Height);
                             if(HitTest(ballRect, brickRect))
                             {
+                                PlaySound(gameContent.BrickSound);
                                 brick.Visible = false;
                                 Score += 7 - i;
                                 YVelocity *= -1;
@@ -193,6 +201,14 @@ namespace Bricks
         public static bool HitTest(Rectangle r1, Rectangle r2)
         {
             return (Rectangle.Intersect(r1, r2) != Rectangle.Empty);
+        }
+
+        public static void PlaySound(SoundEffect sound)
+        {
+            float volume = 1;
+            float pitch = 0.0f;
+            float pan = 0.0f;
+            sound.Play(volume, pitch, pan);
         }
     }
 }
