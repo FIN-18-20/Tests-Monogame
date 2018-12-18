@@ -16,11 +16,14 @@ namespace Bricks
         private Paddle _paddle;
         private Wall _wall;
         private GameBorder _gameBorder;
+        private Ball _ball;
 
         private int _screenWidth = 0;
         private int _screenHeight = 0;
         private MouseState _oldMouseState;
         private KeyboardState _oldKeyboardState;
+        private bool _readyToServeBall = true;
+        private int _remainingBalls = 3;
         
         public Game1()
         {
@@ -71,6 +74,7 @@ namespace Bricks
             _paddle = new Paddle(paddleX, paddleY, _screenWidth, spriteBatch, gameContent);
             _wall = new Wall(1, 50, spriteBatch, gameContent);
             _gameBorder = new GameBorder(_screenWidth, _screenHeight, spriteBatch, gameContent);
+            _ball = new Ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
         }
 
         /// <summary>
@@ -96,7 +100,7 @@ namespace Bricks
                 Exit();
 
             /*  Controllers */
-            KeyboardState newkeyboardState = Keyboard.GetState();
+            KeyboardState newKeyboardState = Keyboard.GetState();
             MouseState newMouseState = Mouse.GetState();
 
             /*  Process mouse move  */
@@ -106,7 +110,24 @@ namespace Bricks
                     _paddle.MoveTo(newMouseState.X);
             }
 
+            /*  Process left-click  */
+            if (newMouseState.LeftButton == ButtonState.Released && _oldMouseState.LeftButton == ButtonState.Pressed && _readyToServeBall)
+                ServeBall();
+
             /*  Process keyboard events */
+            if (newKeyboardState.IsKeyDown(Keys.Left))
+            {
+                _paddle.MoveLeft();
+            }
+            if (newKeyboardState.IsKeyDown(Keys.Right))
+            {
+                _paddle.MoveRight();
+            }
+            if (_oldKeyboardState.IsKeyUp(Keys.Space) && newKeyboardState.IsKeyDown(Keys.Space) && _readyToServeBall)
+                ServeBall();
+
+            _oldMouseState = newMouseState; // this saves the old state      
+            _oldKeyboardState = newKeyboardState;
 
             base.Update(gameTime);
         }
@@ -123,9 +144,36 @@ namespace Bricks
             _paddle.Draw();
             _wall.Draw();
             _gameBorder.Draw();
+            if (_ball.Visible)
+            {
+                bool inPlay = _ball.Move(_wall, _paddle);
+                if (inPlay)
+                {
+                    _ball.Draw();
+                }
+                else
+                {
+                    _remainingBalls--;
+                    _readyToServeBall = true;
+                }
+            }
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        private void ServeBall()
+        {
+            if (_remainingBalls < 1)
+            {
+                _remainingBalls = 3;
+                _ball.Score = 0;
+                _wall = new Wall(1, 50, spriteBatch, gameContent);
+            }
+            _readyToServeBall = false;
+            float ballX = _paddle.X + (_paddle.Width) / 2;
+            float ballY = _paddle.Y - _paddle.Height;
+            _ball.Launch(ballX, ballY, -3, -3);
         }
     }
 }

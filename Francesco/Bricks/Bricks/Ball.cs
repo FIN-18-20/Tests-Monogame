@@ -77,50 +77,48 @@ namespace Bricks
 
         public bool Move(Wall wall, Paddle paddle)
         {
-            if (Visible == false)
-            {
+            if (!Visible)
                 return false;
-            }
+
             X = X + XVelocity;
             Y = Y + YVelocity;
 
-            /*  Wall hits   */
+            /*  Check for wall hits */
             if (X < 1)
             {
                 X = 1;
-                XVelocity = XVelocity * -1;
+                XVelocity *= -1;
             }
             if (X > ScreenWidth - Width + 5)
             {
                 X = ScreenWidth - Width + 5;
-                XVelocity = XVelocity * -1;
+                XVelocity *= -1;
             }
             if (Y < 1)
             {
                 Y = 1;
-                YVelocity = YVelocity * -1;
+                YVelocity *= -1;
             }
-            if (Y + Height > ScreenHeight)
+            if(Y+Height>ScreenHeight)
             {
                 Visible = false;
                 Y = 0;
                 return false;
             }
-            
-            /*  Paddle hits */
-            //paddle is 70 pixels. we'll logically divide it into segments that will determine the angle of the bounce
 
+            /*  Check for paddle hits
+             *  Paddle is 70 pixels. We'll divide it into segments that will determine the angle of the bounce. */
             Rectangle paddleRect = new Rectangle((int)paddle.X, (int)paddle.Y, (int)paddle.Width, (int)paddle.Height);
             Rectangle ballRect = new Rectangle((int)X, (int)Y, (int)Width, (int)Height);
-            if (HitTest(paddleRect, ballRect))
+
+            if(HitTest(paddleRect, ballRect))
             {
                 int offset = Convert.ToInt32((paddle.Width - (paddle.X + paddle.Width - X + Width / 2)));
-                offset = offset / 5;
+                offset /= 5;
                 if (offset < 0)
-                {
                     offset = 0;
-                }
-                switch (offset)
+
+                switch(offset)
                 {
                     case 0:
                         XVelocity = -6;
@@ -159,26 +157,28 @@ namespace Bricks
                         XVelocity = 6;
                         break;
                 }
-                YVelocity = YVelocity * -1;
+
+                YVelocity *= -1;
                 Y = paddle.Y - Height + 1;
                 return true;
             }
+
             bool hitBrick = false;
-            for (int i = 0; i < 7; i++)
+            for(int i = 0; i < 7; i++)
             {
-                if (hitBrick == false)
+                if(!hitBrick)
                 {
                     for (int j = 0; j < 10; j++)
                     {
                         Brick brick = wall.BrickWall[i, j];
-                        if (brick.Visible)
+                        if(brick.Visible)
                         {
                             Rectangle brickRect = new Rectangle((int)brick.X, (int)brick.Y, (int)brick.Width, (int)brick.Height);
-                            if (HitTest(ballRect, brickRect))
+                            if(HitTest(ballRect, brickRect))
                             {
                                 brick.Visible = false;
-                                Score = Score + 7 - i;
-                                YVelocity = YVelocity * -1;
+                                Score += 7 - i;
+                                YVelocity *= -1;
                                 bricksCleared++;
                                 hitBrick = true;
                                 break;
@@ -192,14 +192,7 @@ namespace Bricks
 
         public static bool HitTest(Rectangle r1, Rectangle r2)
         {
-            if (Rectangle.Intersect(r1, r2) != Rectangle.Empty)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return (Rectangle.Intersect(r1, r2) != Rectangle.Empty);
         }
     }
 }
