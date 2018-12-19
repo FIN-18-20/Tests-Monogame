@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4CEE2D50-FA1E-448D-ACB0-69189DDA6A57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarioBros</RootNamespace>
+    <AssemblyName>MarioBros</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;LINUX</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;LINUX</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Achievements\Achievement.cs" />
+    <Compile Include="Achievements\AchievementsManager.cs" />
+    <Compile Include="Collision Detection and Response\BlockCollisionResponder.cs" />
+    <Compile Include="Collision Detection and Response\CollisionDetector.cs" />
+    <Compile Include="Collision Detection and Response\EnemyCollisionResponder.cs" />
+    <Compile Include="Collision Detection and Response\FireballCollisionResponder.cs" />
+    <Compile Include="Collision Detection and Response\ItemCollisionResponder.cs" />
+    <Compile Include="Collision Detection and Response\PipeCollisionResponder.cs" />
+    <Compile Include="Collision Detection and Response\ThrowingStarCollisionResponse.cs" />
+    <Compile Include="CollisionTests.cs" />
+    <Compile Include="Command Classes\DownCommand.cs" />
+    <Compile Include="Command Classes\FlipCommand.cs" />
+    <Compile Include="Command Classes\IdleCommand.cs" />
+    <Compile Include="Command Classes\LeftCommand.cs" />
+    <Compile Include="Command Classes\LoadAchPageCommand.cs" />
+    <Compile Include="Command Classes\LoadLevelCommand.cs" />
+    <Compile Include="Command Classes\LoadMenuCommand.cs" />
+    <Compile Include="Command Classes\MenuDownCommand.cs" />
+    <Compile Include="Command Classes\MenuSelectCommand.cs" />
+    <Compile Include="Command Classes\MenuUpCommand.cs" />
+    <Compile Include="Command Classes\NullCommand.cs" />
+    <Compile Include="Command Classes\PauseCommand.cs" />
+    <Compile Include="Command Classes\ProjectileCommand.cs" />
+    <Compile Include="Command Classes\QuitCommand.cs" />
+    <Compile Include="Command Classes\ResetSceneCommand.cs" />
+    <Compile Include="Command Classes\RightCommand.cs" />
+    <Compile Include="Command Classes\RunCommand.cs" />
+    <Compile Include="Command Classes\UpCommand.cs" />
+    <Compile Include="Controller Classes\GamepadController.cs" />
+    <Compile Include="Controller Classes\KeyboardController.cs" />
+    <Compile Include="Controller Classes\PauseMenuGamepadController.cs" />
+    <Compile Include="Controller Classes\PauseMenuKeyController.cs" />
+    <Compile Include="Controller Classes\TitleKeyController.cs" />
+    <Compile Include="Controller Classes\TitlePadController.cs" />
+    <Compile Include="Controller Classes\VVVVVVKeyController.cs" />
+    <Compile Include="Controller Classes\VVVVVVPadController.cs" />
+    <Compile Include="Factories\BlockFactory.cs" />
+    <Compile Include="Factories\CollectableFactory.cs" />
+    <Compile Include="Factories\EnemyFactory.cs" />
+    <Compile Include="Factories\PipeFactory.cs" />
+    <Compile Include="Factories\SpriteFactory.cs" />
+    <Compile Include="Game Object Classes\Block.cs" />
+    <Compile Include="Game Object Classes\Camera.cs" />
+    <Compile Include="Game Object Classes\Enemy.cs" />
+    <Compile Include="Game Object Classes\Items\Coin.cs" />
+    <Compile Include="Game Object Classes\Items\FireFlower.cs" />
+    <Compile Include="Game Object Classes\Items\Ninja.cs" />
+    <Compile Include="Game Object Classes\Items\OneUpMushroom.cs" />
+    <Compile Include="Game Object Classes\Items\Star.cs" />
+    <Compile Include="Game Object Classes\Items\SuperMushroom.cs" />
+    <Compile Include="Game Object Classes\Level.cs" />
+    <Compile Include="Game Object Classes\Mario.cs" />
+    <Compile Include="Game Object Classes\Pipe.cs" />
+    <Compile Include="Game Object Classes\Projectiles\Fireball.cs" />
+    <Compile Include="Game Object Classes\Projectiles\ThrowingStar.cs" />
+    <Compile Include="Game Object Classes\Spike.cs" />
+    <Compile Include="Game Object Classes\Trampoline.cs" />
+    <Compile Include="Game Object Sprite Classes\Background Sprites\OverworldBackgroundSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Background Sprites\OverworldBGHillsSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Background Sprites\UndergroundBackgroundSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Block Sprites\QuestionBlockSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Block Sprites\WingedBlockSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Enemy Sprites\Dino\LeftSmashedDino.cs" />
+    <Compile Include="Game Object Sprite Classes\Enemy Sprites\Dino\LeftTallDino.cs" />
+    <Compile Include="Game Object Sprite Classes\Enemy Sprites\Dino\RightSmashedDino.cs" />
+    <Compile Include="Game Object Sprite Classes\Enemy Sprites\Dino\RightTallDino.cs" />
+    <Compile Include="Game Object Sprite Classes\Enemy Sprites\Shell-Less Koopa\LeftWalkingShellessKoopa.cs" />
+    <Compile Include="Game Object Sprite Classes\Enemy Sprites\Shell-Less Koopa\RightWalkingShellessKoopa.cs" />
+    <Compile Include="Game Object Sprite Classes\ExplosionSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\GameLogoSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\GateSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Item Sprites\CoinSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Item Sprites\FireballSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Item Sprites\FireFlowerSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\Item Sprites\ThrowingStarSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\MarioMovingSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\NullSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\SpikeSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\StaticSprite.cs" />
+    <Compile Include="Game Object Sprite Classes\TrampolineSprite.cs" />
+    <Compile Include="Game Object State Classes\Block States\ExclamationBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\ExplodingBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\GenericBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\GroundBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\InvisibleBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\PipeBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\QuestionBlockState.cs" />
+    <Compile Include="Game Object State Classes\Block States\StoneBlockState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Banzai Bill States\BanzaiBillState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Dino States\DeadDinoState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Dino States\LeftSmashedDinoState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Dino States\LeftTallDinoState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Dino States\RightSmashedDinoState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Dino States\RightTallDinoState.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Koopa States\DeadShellessKS.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Koopa States\LeftWalkingShellessKS.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\Koopa States\RightWalkingShellessKS.cs" />
+    <Compile Include="Game Object State Classes\Enemy States\NullEnemyState.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\LeftCrouchingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\LeftFallingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\LeftIdleBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\LeftJumpingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\LeftMovingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\RightCrouchingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\RightFallingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\RightIdleBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\RightJumpingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Big Mario\RightMovingBigMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\LeftCrouchingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\LeftFallingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\LeftFireballFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\LeftIdleFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\LeftJumpingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\LeftMovingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\RightCrouchingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\RightFallingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\RightFireballFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\RightIdleFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\RightJumpingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Fire Mario\RightMovingFireMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\DeadFlipMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\DeadMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftCrouchingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftFallingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftIdleSmallFlipMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftIdleSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftJumpingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftMovingSmallFlipMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\LeftMovingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightCrouchingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightFallingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightIdleSmallFlipMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightIdleSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightJumpingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightMovingSmallFlipMS.cs" />
+    <Compile Include="Game Object State Classes\Mario States\Small Mario\RightMovingSmallMS.cs" />
+    <Compile Include="Game Object State Classes\PipeStates\DownPipeState.cs" />
+    <Compile Include="Game Object State Classes\PipeStates\LeftPipeState.cs" />
+    <Compile Include="Game Object State Classes\PipeStates\UpPipeState.cs" />
+    <Compile Include="Game States\AchievementMenuGameState.cs" />
+    <Compile Include="Game States\DeadFlipGameState.cs" />
+    <Compile Include="Game States\DeadGameState.cs" />
+    <Compile Include="Game States\GameOverState.cs" />
+    <Compile Include="Game States\LivesScreenGameState.cs" />
+    <Compile Include="Game States\PauseGameState.cs" />
+    <Compile Include="Game States\PipeTransitionGameState.cs" />
+    <Compile Include="Game States\SuperMarioGameState.cs" />
+    <Compile Include="Game States\TitleScreenGameState.cs" />
+    <Compile Include="Game States\TransitionGameState.cs" />
+    <Compile Include="Game States\VictoryGameState.cs" />
+    <Compile Include="Game States\VVVVVVGameState.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="GUIs\GUI.cs" />
+    <Compile Include="HUD and Background\BackgroundHolder.cs" />
+    <Compile Include="HUD and Background\HUD.cs" />
+    <Compile Include="Interfaces\IAnimatedSprite.cs" />
+    <Compile Include="Interfaces\IBlockState.cs" />
+    <Compile Include="Interfaces\ICollectable.cs" />
+    <Compile Include="Interfaces\ICollectablePhysicsState.cs" />
+    <Compile Include="Interfaces\ICommands.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\IEnemyPhysicsState.cs" />
+    <Compile Include="Interfaces\IEnemyState.cs" />
+    <Compile Include="Interfaces\IGameState.cs" />
+    <Compile Include="Interfaces\IMarioPhysicState.cs" />
+    <Compile Include="Interfaces\IMarioState.cs" />
+    <Compile Include="Interfaces\IPipeState.cs" />
+    <Compile Include="Interfaces\ISpriteFactory.cs" />
+    <Compile Include="LevelBuilder.cs" />
+    <Compile Include="Physics States\Enemy Physics\EnemyFallingState.cs" />
+    <Compile Include="Physics States\Enemy Physics\EnemyGroundState.cs" />
+    <Compile Include="Physics States\Item Physics\ItemFallingState.cs" />
+    <Compile Include="Physics States\Item Physics\ItemGroundState.cs" />
+    <Compile Include="Physics States\Mario Physics\FallingState.cs" />
+    <Compile Include="Physics States\Mario Physics\GroundState.cs" />
+    <Compile Include="Physics States\Mario Physics\JumpingState.cs" />
+    <Compile Include="Physics States\Mario Physics\VVVVVVAirState.cs" />
+    <Compile Include="Physics States\Mario Physics\VVVVVVGroundState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="Utility Classes\StringHolder.cs" />
+    <Compile Include="Utility Classes\ValueHolder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\SDL2.dll">
+      <Link>x86\SDL2.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\SDL2.dll">
+      <Link>x64\SDL2.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\soft_oal.dll">
+      <Link>x86\soft_oal.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\soft_oal.dll">
+      <Link>x64\soft_oal.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\libSDL2-2.0.so.0">
+      <Link>x86\libSDL2-2.0.so.0</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\libSDL2-2.0.so.0">
+      <Link>x64\libSDL2-2.0.so.0</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\libopenal.so.1">
+      <Link>x86\libopenal.so.1</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\libopenal.so.1">
+      <Link>x64\libopenal.so.1</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\libSDL2-2.0.0.dylib">
+      <Link>libSDL2-2.0.0.dylib</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\libopenal.1.dylib">
+      <Link>libopenal.1.dylib</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll.config">
+      <Link>MonoGame.Framework.dll.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Content\Content.mgcb">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
