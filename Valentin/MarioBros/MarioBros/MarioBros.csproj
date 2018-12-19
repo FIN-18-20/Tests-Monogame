@@ -52,7 +52,6 @@
     <Compile Include="Collision Detection and Response\ItemCollisionResponder.cs" />
     <Compile Include="Collision Detection and Response\PipeCollisionResponder.cs" />
     <Compile Include="Collision Detection and Response\ThrowingStarCollisionResponse.cs" />
-    <Compile Include="CollisionTests.cs" />
     <Compile Include="Command Classes\DownCommand.cs" />
     <Compile Include="Command Classes\FlipCommand.cs" />
     <Compile Include="Command Classes\IdleCommand.cs" />

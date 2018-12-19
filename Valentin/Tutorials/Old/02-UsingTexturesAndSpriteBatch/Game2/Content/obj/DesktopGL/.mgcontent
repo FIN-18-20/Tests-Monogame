@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/2-UsingTexturesAndSpriteBatch/Game2/Content/creeper_craft97.128.629008.jpg</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/2-UsingTexturesAndSpriteBatch/Game2/Content/hollow.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>creeper.jpg</File>
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

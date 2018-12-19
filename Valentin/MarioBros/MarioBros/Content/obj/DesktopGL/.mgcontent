@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achCoins.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achCoinsGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achFall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achFallGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achFireball.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achFireballGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achHitEnemy.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achHitEnemyGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementBeatLevel.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementCoins.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementEat.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementEnemy.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementFall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementFireball.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achievementLife.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/AchievementUnlocked.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achLevel.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achLevelGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achLife.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achLifeGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achMushroom.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Achievements/achMushroomGrey.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/banzaiBill.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/deadBanzaiBill.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Dino/leftDeadDino.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Dino/walkingLeftDino.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Dino/walkingLeftSquishedDino.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Dino/walkingRightDino.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Dino/walkingRightSquishedDino.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/downSpike.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/downSpikeAnimated.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/piranhaPlant.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Shell-Less Koopa/deadShellessKoopa.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Shell-Less Koopa/leftWalkShellessKoopa.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/Shell-Less Koopa/rightWalkShellessKoopa.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/upSpike.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Enemies/upSpikeAnimated.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Fonts/SpriteFont1.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Fonts/SpriteFont2.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/game logo.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/ground tile.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Fonts/CoinsFont.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Fonts/LivesFont.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Fonts/PauseFont.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Fonts/ScoreFont.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Fonts/TimeFont.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Sprites/HUDCoinSprite.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Sprites/HUDMario.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/HUD Sprites/TimeSprite.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/1upMushroom.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/bluePipe.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/bush1.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/bush2.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/bush3.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/castle.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/downFacingPipe.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/dragonCoin.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/exclamationBlock.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/exitarrow.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/explode.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/fireball1.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/FireFlower.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/gate.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/gateBroken.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/gateFramedFinal.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/leftFacingPipe.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/leftGroundEdge.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/marioFireball.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/ninja.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/questionBlock.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/rightGroundEdge.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/ShellRed.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/spinningCoin.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/star.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/stoneBlock.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/SuperMushroom.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/ThrowingStar.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/trampoline.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/usedBlock.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/whitePipe.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/wingedBlock.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Items/yellowPipe.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/bigMarioLeftSprint.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/bigMarioRightSprint.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftCrouchingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftFallingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftIdleMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftJumpingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftLookingUpMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftMovingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftQuickturnMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftShellKickMario.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/leftSlidingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightCrouchingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightFallingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightIdleMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightJumpingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightLookingUpMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightMovingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightQuickturnMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightShellKickMario.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/rightSlidingMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/soaringMario.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/spinningMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Big Mario/victoryMarioBig.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftFacingCrouchingMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftFacingIdleMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftFacingJumpingMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftFacingLookingUpMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftFacingQuickturnMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftfallingmariofire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/leftFireballMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/movingLeftMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/movingRightMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightFacingCrouchingMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightFacingFallingMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightFacingJumpingMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightFacingLookingUpMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightfacingquickturnmariofire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightFireballMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/rightidlemariofire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/spinningMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Fire Mario/victoryMarioFire.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/deadMario.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftCrouchingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftFallingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftIdleMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftIdleMarioSmallFlip.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftJumpingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftLookingUpMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftMovingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/leftMovingMarioSmallFlip.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightCrouchingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightFallingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightIdleMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightIdleMarioSmallFlip.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightJumpingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightLookingUpMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightMovingMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/rightMovingMarioSmallFlip.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/smallMarioLeftSprint.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/smallMarioRightSprint.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/smallMarioVictory.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Mario Sprites/Small Mario/spinningMarioSmall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Overworld Sprites/background.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Overworld Sprites/background2.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Course Clear Fanfare.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Game Over.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Map BGM.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Overworld BGM.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/OverworldTimeRunningOut.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Potential for Anything.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Shadow Ninja.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Star BGM.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/title music.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/Music/Underground BGM.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/BillLaunch.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/fireball.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/flip.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/menu.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/Player Down.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX 1up.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX Brick Break.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX coin collect.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX Enemy damage.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX Grow.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX item spawn.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX Jump.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX kick.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX land.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Sound/SFX/SFX shrink.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundBackground.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundFloor.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundLeftBottomCorner.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundLeftTopCorner.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundLeftWall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundRightBottomCorner.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundRightTopCorner.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundRightWall.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundRoof - Copy.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/MarioBros/MarioBros/Content/Underground Sprites/undergroundRoof.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
