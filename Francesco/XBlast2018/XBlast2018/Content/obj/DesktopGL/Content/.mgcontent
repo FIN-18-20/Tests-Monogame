@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/000_iron_floor.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/001_iron_floor_S.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/002_dark_block.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/003_extra.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/004_extra_O.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/005_inc_bomb.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/006_inc_range.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/007_dec_bomb.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/008_dec_range.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/009_full_fire.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/block/010_fire_suit.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/000_nesw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/001_nesW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/002_neSw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/003_neSW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/004_nEsw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/005_nEsW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/006_nESw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/007_nESW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/008_Nesw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/009_NesW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/010_NeSw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/011_NeSW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/012_NEsw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/013_NEsW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/014_NESw.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/015_NESW.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/020_bomb.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/explosion/021_bomb_white.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/000_player.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/001_player.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/002_player.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/003_player.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/004_player.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/background.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/client_icon.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/redRectangle.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/misc/server_icon.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/000_P1_N0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/001_P1_N1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/002_P1_N2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/003_P1_E0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/004_P1_E1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/005_P1_E2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/006_P1_S0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/007_P1_S1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/008_P1_S2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/009_P1_W0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/010_P1_W1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/011_P1_W2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/012_P1_losing-life.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/013_P1_dying.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/020_P2_N0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/021_P2_N1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/022_P2_N2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/023_P2_E0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/024_P2_E1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/025_P2_E2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/026_P2_S0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/027_P2_S1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/028_P2_S2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/029_P2_W0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/030_P2_W1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/031_P2_W2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/032_P2_losing-life.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/033_P2_dying.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/040_P3_N0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/041_P3_N1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/042_P3_N2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/043_P3_E0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/044_P3_E1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/045_P3_E2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/046_P3_S0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/047_P3_S1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/048_P3_S2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/049_P3_W0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/050_P3_W1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/051_P3_W2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/052_P3_losing-life.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/053_P3_dying.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/060_P4_N0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/061_P4_N1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/062_P4_N2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/063_P4_E0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/064_P4_E1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/065_P4_E2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/066_P4_S0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/067_P4_S1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/068_P4_S2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/069_P4_W0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/070_P4_W1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/071_P4_W2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/072_P4_losing-life.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/073_P4_dying.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/080_WP_N0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/081_WP_N1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/082_WP_N2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/083_WP_E0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/084_WP_E1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/085_WP_E2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/086_WP_S0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/087_WP_S1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/088_WP_S2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/089_WP_W0.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/090_WP_W1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/player/091_WP_W2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/000_P1.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/001_P1_dead.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/002_P2.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/003_P2_dead.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/004_P3.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/005_P3_dead.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/006_P4.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/007_P4_dead.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/010_text_middle.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/011_text_right.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/012_tile_void.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/020_led_off.png</File>
+    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/XBlast2018/XBlast2018/Content/images/score/021_led_on.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
