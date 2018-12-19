@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/12-InterfaceButtons/InterfaceButtons/Content/Controls/Button.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/12-InterfaceButtons/InterfaceButtons/Content/Fonts/Front.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File>Fonts/Font.spritefont</File>
+  </DestFiles>
+</SourceFileCollection>
