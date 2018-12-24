@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer0_0.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer0_1.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer0_2.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer1_0.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer1_1.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer1_2.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer2_0.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer2_1.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Backgrounds/Layer2_2.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Fonts/Hud.spritefont</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Overlays/you_died.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Overlays/you_lose.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Overlays/you_win.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/ExitReached.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/GemCollected.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/MonsterKilled.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/Music.wma</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/PlayerFall.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/PlayerJump.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/PlayerKilled.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/Powerup.wav</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/Gem.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterA/Idle.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterA/Run.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterB/Idle.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterB/Run.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterC/Idle.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterC/Run.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterD/Idle.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/MonsterD/Run.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/Player/Celebrate.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/Player/Die.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/Player/Idle.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/Player/Jump.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/Player/Run.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sprites/VirtualControlArrow.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA0.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA1.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA2.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA3.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA4.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA5.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockA6.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockB0.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/BlockB1.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/Exit.png</File>
+    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Tiles/Platform.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

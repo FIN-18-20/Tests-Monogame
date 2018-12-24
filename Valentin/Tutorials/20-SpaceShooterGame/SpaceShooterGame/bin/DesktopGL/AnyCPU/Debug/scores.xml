@@ -6,6 +6,14 @@
   </Score>
   <Score>
     <PlayerName>Player 1</PlayerName>
+    <Value>16</Value>
+  </Score>
+  <Score>
+    <PlayerName>Player 2</PlayerName>
+    <Value>15</Value>
+  </Score>
+  <Score>
+    <PlayerName>Player 1</PlayerName>
     <Value>3</Value>
   </Score>
   <Score>
