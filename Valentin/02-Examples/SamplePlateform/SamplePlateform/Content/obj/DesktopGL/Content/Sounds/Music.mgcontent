@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/Sounds/Music.wma</SourceFile>
+  <SourceTime>2018-12-24T01:47:14+01:00</SourceTime>
+  <DestFile>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/bin/DesktopGL/Content/Sounds/Music.xnb</DestFile>
+  <DestTime>2019-01-08T13:10:56+01:00</DestTime>
+  <Importer>WmaImporter</Importer>
+  <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2018-09-23T23:55:52+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/SamplePlateform/SamplePlateform/Content/bin/DesktopGL/Content/Sounds/Music.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

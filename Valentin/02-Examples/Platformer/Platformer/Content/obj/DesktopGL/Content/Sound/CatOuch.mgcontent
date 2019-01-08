@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/CatOuch.wav</SourceFile>
+  <SourceTime>2017-11-13T05:12:12+01:00</SourceTime>
+  <DestFile>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/bin/DesktopGL/Content/Sound/CatOuch.xnb</DestFile>
+  <DestTime>2019-01-08T13:36:22+01:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2018-09-23T23:55:52+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/background_stars.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Font.spritefont</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/FontTexture.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/mid_background.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/QuadEffect.fx</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/tiles1.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Wizzy.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/hud.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/Attack.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/Bounce.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/CatOuch.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/ChainsawHit.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/Explode.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/Jump.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/Land.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/MousterHit.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/MousterOuch.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Sound/Ouch.wav</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Music/Music1.mp3</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/Crystal.fx</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/monsters1.png</File>
+    <File>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Examples/Platformer/Platformer/Content/explosion1.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

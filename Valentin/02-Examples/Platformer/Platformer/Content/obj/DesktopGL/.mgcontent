@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/background_stars.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Font.spritefont</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/FontTexture.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/mid_background.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/QuadEffect.fx</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/tiles1.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Wizzy.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/hud.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/Attack.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/Bounce.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/CatOuch.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/ChainsawHit.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/Explode.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/Jump.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/Land.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/MousterHit.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/MousterOuch.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Sound/Ouch.wav</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Music/Music1.mp3</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/Crystal.fx</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/monsters1.png</File>
+    <File>C:/Users/JEI/documents/visual studio 2013/Projects/Platformer/Platformer/Content/explosion1.png</File>
+  </SourceFiles>
+</SourceFileCollection>

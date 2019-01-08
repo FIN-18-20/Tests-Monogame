@@ -1,0 +1,172 @@
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\background_stars.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\FontTexture.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\mid_background.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\QuadEffect.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\tiles1.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Wizzy.xnb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.pdb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\obj\Debug\Platformer.exe
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\obj\Debug\Platformer.pdb
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libSDL2-2.0.0.dylib
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libopenal.1.dylib
+c:\users\jei\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\MonoGame.Framework.dll.config
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\hud.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.ogg
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Attack.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Bounce.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\CatOuch.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\ChainsawHit.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Explode.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Jump.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Land.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterHit.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterOuch.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Ouch.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Crystal.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\monsters1.xnb
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\obj\Debug\Platformer.csprojResolveAssemblyReference.cache
+C:\Users\JEI\documents\visual studio 2013\Projects\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\explosion1.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Attack.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Bounce.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\CatOuch.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\ChainsawHit.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Explode.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Jump.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Land.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterHit.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterOuch.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Ouch.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.ogg
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\background_stars.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Crystal.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\explosion1.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\FontTexture.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\hud.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\mid_background.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\monsters1.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\QuadEffect.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\tiles1.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Wizzy.xnb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libSDL2-2.0.0.dylib
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libopenal.1.dylib
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\MonoGame.Framework.dll.config
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe.config
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.pdb
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+C:\Users\kalinva\Desktop\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+C:\Users\kalinva\Desktop\Platformer\Platformer\obj\Debug\Platformer.csprojAssemblyReference.cache
+C:\Users\kalinva\Desktop\Platformer\Platformer\obj\Debug\Platformer.csproj.CoreCompileInputs.cache
+C:\Users\kalinva\Desktop\Platformer\Platformer\obj\Debug\Platformer.csproj.CopyComplete
+C:\Users\kalinva\Desktop\Platformer\Platformer\obj\Debug\Platformer.exe
+C:\Users\kalinva\Desktop\Platformer\Platformer\obj\Debug\Platformer.pdb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libSDL2-2.0.0.dylib
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libopenal.1.dylib
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\MonoGame.Framework.dll.config
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Attack.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Bounce.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\CatOuch.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\ChainsawHit.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Explode.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Jump.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Land.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterHit.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterOuch.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Ouch.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.ogg
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\background_stars.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Crystal.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\explosion1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\FontTexture.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\hud.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\mid_background.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\monsters1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\QuadEffect.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\tiles1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Wizzy.xnb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe.config
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.pdb
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\obj\Debug\Platformer.csprojAssemblyReference.cache
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\obj\Debug\Platformer.csproj.CoreCompileInputs.cache
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\obj\Debug\Platformer.csproj.CopyComplete
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\obj\Debug\Platformer.exe
+F:\ETML\PROJETS\GameOfTheYear\Platformer\Platformer\obj\Debug\Platformer.pdb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libSDL2-2.0.0.dylib
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\libopenal.1.dylib
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\default\MonoGame.Framework.dll.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Attack.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Bounce.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\CatOuch.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\ChainsawHit.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Explode.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Jump.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Land.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterHit.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\MousterOuch.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Sound\Ouch.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.ogg
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Music\Music1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\background_stars.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Crystal.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\explosion1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\FontTexture.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\hud.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\mid_background.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\monsters1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\QuadEffect.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\tiles1.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Content\Wizzy.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.exe
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\Platformer.pdb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\obj\Debug\Platformer.csprojAssemblyReference.cache
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\obj\Debug\Platformer.csproj.CoreCompileInputs.cache
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\obj\Debug\Platformer.csproj.CopyComplete
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\obj\Debug\Platformer.exe
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\Examples\Platformer\Platformer\obj\Debug\Platformer.pdb
