@@ -3,7 +3,7 @@
   <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MitchMurder-RavagedSkies.mp3</SourceFile>
   <SourceTime>2018-12-18T15:42:06.0172414+01:00</SourceTime>
   <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Music/MitchMurder-RavagedSkies.xnb</DestFile>
-  <DestTime>2018-12-18T16:07:37.4642414+01:00</DestTime>
+  <DestTime>2019-01-08T15:39:15.6924561+01:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>SongProcessor</Processor>

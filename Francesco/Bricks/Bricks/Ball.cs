@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Bricks
 {
-    class Ball
+    class _ball
     {
         public float X { get; set; }
         public float Y { get; set; }
@@ -22,7 +22,7 @@ namespace Bricks
         public bool UseRotation { get; set; }
         public float ScreenWidth { get; set; } //width of game screen
         public float ScreenHeight { get; set; } //height of game screen
-        public bool Visible { get; set; }  //is ball visible on screen
+        public bool Visible { get; set; }  //is _ball visible on screen
         public int Score { get; set; }
         public int bricksCleared { get; set; } //number of bricks cleared this level
 
@@ -30,7 +30,7 @@ namespace Bricks
         private SpriteBatch spriteBatch;  //allows us to write on backbuffer when we need to draw self
         private GameContent gameContent;
 
-        public Ball(float screenWidth, float screenHeight, SpriteBatch spriteBatch, GameContent gameContent)
+        public _ball(float screenWidth, float screenHeight, SpriteBatch spriteBatch, GameContent gameContent)
         {
             X = 0;
             Y = 0;
@@ -76,7 +76,7 @@ namespace Bricks
             YVelocity = yVelocity;
         }
 
-        public bool Move(Wall wall, Paddle paddle)
+        public bool Move(_wall _wall, Paddle paddle)
         {
             if (!Visible)
                 return false;
@@ -84,7 +84,7 @@ namespace Bricks
             X = X + XVelocity;
             Y = Y + YVelocity;
 
-            /*  Check for wall hits */
+            /*  Check for _wall hits */
             if (X < 1)
             {
                 X = 1;
@@ -177,7 +177,7 @@ namespace Bricks
                 {
                     for (int j = 0; j < 10; j++)
                     {
-                        Brick brick = wall.BrickWall[i, j];
+                        Brick brick = _wall.BrickWall[i, j];
                         if(brick.Visible)
                         {
                             Rectangle brickRect = new Rectangle((int)brick.X, (int)brick.Y, (int)brick.Width, (int)brick.Height);

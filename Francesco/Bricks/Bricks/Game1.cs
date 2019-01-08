@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 
 namespace Bricks
 {
@@ -14,9 +15,10 @@ namespace Bricks
         GameContent gameContent;
 
         private Paddle _paddle;
-        private Wall _wall;
+        private _wall _wall;
         private GameBorder _gameBorder;
-        private Ball _ball;
+        private _ball _ball;
+        private _ball _staticBall; //used to draw image next to remaining _ball count at top of screen
 
         private int _screenWidth = 0;
         private int _screenHeight = 0;
@@ -24,6 +26,7 @@ namespace Bricks
         private KeyboardState _oldKeyboardState;
         private bool _readyToServeBall = true;
         private int _remainingBalls = 3;
+        private int _currentSongIndex = 0;
         
         public Game1()
         {
@@ -72,9 +75,17 @@ namespace Bricks
             int paddleX = (_screenWidth - gameContent.PaddleImg.Width) / 2; // Center the image on the start
             int paddleY = _screenHeight - 100;  // Paddle will be 100px from the bottom of the screen
             _paddle = new Paddle(paddleX, paddleY, _screenWidth, spriteBatch, gameContent);
-            _wall = new Wall(1, 50, spriteBatch, gameContent);
+            _wall = new _wall(1, 50, spriteBatch, gameContent);
             _gameBorder = new GameBorder(_screenWidth, _screenHeight, spriteBatch, gameContent);
-            _ball = new Ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
+            _ball = new _ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
+            _staticBall = new _ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
+            _staticBall.X = 25;
+            _staticBall.Y = 25;
+            _staticBall.Visible = true;
+            _staticBall.UseRotation = false;
+
+            MediaPlayer.Play(gameContent.MusicList[0]);
+            MediaPlayer.Volume = 0.3f;
         }
 
         /// <summary>
@@ -129,6 +140,12 @@ namespace Bricks
             _oldMouseState = newMouseState; // this saves the old state      
             _oldKeyboardState = newKeyboardState;
 
+            if(MediaPlayer.State == MediaState.Stopped)
+            {
+                _currentSongIndex = _currentSongIndex + 1 % gameContent.MusicList.Count;
+                MediaPlayer.Play(gameContent.MusicList[_currentSongIndex]);
+            }
+
             base.Update(gameTime);
         }
 
@@ -157,6 +174,34 @@ namespace Bricks
                     _readyToServeBall = true;
                 }
             }
+            _staticBall.Draw();
+
+            string scoreMsg = "Score: " + _ball.Score.ToString("00000");
+            Vector2 space = gameContent.LabelFont.MeasureString(scoreMsg);
+            spriteBatch.DrawString(gameContent.LabelFont, scoreMsg, new Vector2((_screenWidth - space.X) / 2, _screenHeight - 40), Color.White);
+            if (_ball.bricksCleared >= 70)
+            {
+                _ball.Visible = false;
+                _ball.bricksCleared = 0;
+                _wall = new _wall(1, 50, spriteBatch, gameContent);
+                _readyToServeBall = true;
+            }
+            if (_readyToServeBall)
+            {
+                if (_remainingBalls > 0)
+                {
+                    string startMsg = "Press <Space> or Click Mouse to Start";
+                    Vector2 startSpace = gameContent.LabelFont.MeasureString(startMsg);
+                    spriteBatch.DrawString(gameContent.LabelFont, startMsg, new Vector2((_screenWidth - startSpace.X) / 2, _screenHeight / 2), Color.White);
+                }
+                else
+                {
+                    string endMsg = "Game Over";
+                    Vector2 endSpace = gameContent.LabelFont.MeasureString(endMsg);
+                    spriteBatch.DrawString(gameContent.LabelFont, endMsg, new Vector2((_screenWidth - endSpace.X) / 2, _screenHeight / 2), Color.White);
+                }
+            }
+            spriteBatch.DrawString(gameContent.LabelFont, _remainingBalls.ToString(), new Vector2(40, 10), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
@@ -168,7 +213,7 @@ namespace Bricks
             {
                 _remainingBalls = 3;
                 _ball.Score = 0;
-                _wall = new Wall(1, 50, spriteBatch, gameContent);
+                _wall = new _wall(1, 50, spriteBatch, gameContent);
             }
             _readyToServeBall = false;
             float ballX = _paddle.X + (_paddle.Width) / 2;

@@ -10,14 +10,14 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Bricks
 {
-    class Wall
+    class _wall
     {
         /// <summary>
         /// 7 rows, 10 bricks per row, 3 blank rows at the top, each brick is 50 x 16
         /// </summary>
         public Brick[,] BrickWall { get; set; }
 
-        public Wall(float x, float y, SpriteBatch spriteBatch, GameContent gameContent)
+        public _wall(float x, float y, SpriteBatch spriteBatch, GameContent gameContent)
         {
             BrickWall = new Brick[7, 10];
             float brickX = x;
@@ -60,7 +60,7 @@ namespace Bricks
                     BrickWall[i, j] = brick;
                 }
             }
-        }   // End Wall()
+        }   // End _wall()
 
         public void Draw()
         {

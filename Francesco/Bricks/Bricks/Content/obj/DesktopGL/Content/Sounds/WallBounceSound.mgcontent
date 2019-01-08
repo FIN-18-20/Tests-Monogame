@@ -3,7 +3,7 @@
   <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/WallBounceSound.wav</SourceFile>
   <SourceTime>2018-12-12T16:33:34.0472675+01:00</SourceTime>
   <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Sounds/WallBounceSound.xnb</DestFile>
-  <DestTime>2018-12-18T16:07:46.0822414+01:00</DestTime>
+  <DestTime>2019-01-08T15:39:24.3494561+01:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>
