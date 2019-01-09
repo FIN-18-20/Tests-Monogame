@@ -1,0 +1,78 @@
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.pdb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csprojAssemblyReference.cache
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CoreCompileInputs.cache
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CopyComplete
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.exe
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.pdb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Player\Player.xnb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Background.xnb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Bullet.xnb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Game.xnb
+E:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Environment\grass.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Environment\grass.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Player\Player.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Background.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Game.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Bullet.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.pdb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csprojAssemblyReference.cache
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CoreCompileInputs.cache
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CopyComplete
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.exe
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\2DPlateform\2DPlateform\obj\Debug\2DPlateform.pdb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Environment\grass.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Player\Player.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Player\player_Square.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Background.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Game.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Bullet.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe.config
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.pdb
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csprojAssemblyReference.cache
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CoreCompileInputs.cache
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CopyComplete
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.exe
+F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.pdb
