@@ -43,6 +43,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Bullet.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="GameContent.cs" />
     <Compile Include="InvadersWall.cs" />

@@ -15,6 +15,7 @@ namespace SpaceInvaders
         SpriteSheet _spritesheet;
         InvadersWall _invadersWall;
         Ship _ship;
+        Bullet _bullet;
 
         private int _screenWidth = 0;
         private int _screenHeight = 0;
@@ -67,6 +68,7 @@ namespace SpaceInvaders
             int paddleY = _screenHeight - 50;  // Paddle will be 100px from the bottom of the screen
             _ship = new Ship(paddleX, paddleY, _screenWidth, spriteBatch, _spritesheet);
             _invadersWall = new InvadersWall(_spritesheet, new Point(10, 10));
+            _bullet = new Bullet();
         }
 
         /// <summary>
@@ -135,9 +137,19 @@ namespace SpaceInvaders
             spriteBatch.Begin(SpriteSortMode.Deferred,null,SamplerState.PointWrap);
             _invadersWall.Draw(spriteBatch);
             _ship.Draw();
+            if (_bullet.IsVisible)
+                _bullet.Draw(spriteBatch);
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        protected void Shoot()
+        {
+            if(_readyToShoot && !_bullet.IsVisible)
+            {
+                _bullet.IsVisible = true;
+            }
         }
     }
 }
