@@ -52,11 +52,11 @@ namespace _2DPlateform.Sprites
 
             if (Keyboard.GetState().IsKeyDown(Input.Left))
             {
-                Velocity.X -= Speed;
+                Velocity.X = -Speed;
             }
             else if (Keyboard.GetState().IsKeyDown(Input.Right))
             {
-                Velocity.X += Speed;
+                Velocity.X = Speed;
             }
 
             _shootTimer += (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -158,7 +158,7 @@ namespace _2DPlateform.Sprites
             {
                 _onGround = true;
             }
-            else if (IsTouchingLeft(sprite) || IsTouchingRight(sprite))
+            if (IsTouchingLeft(sprite) || IsTouchingRight(sprite))
             {
                 Console.WriteLine("Here");
                 Velocity.X = 0;

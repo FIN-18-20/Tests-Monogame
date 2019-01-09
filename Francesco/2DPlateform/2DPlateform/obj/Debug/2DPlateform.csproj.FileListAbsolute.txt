@@ -76,3 +76,30 @@ F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\
 F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CopyComplete
 F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.exe
 F:\ETML\PROJETS\GameOfTheYear\Commun1\Valentin\03-Personal projects\2DPlateform\2DPlateform\obj\Debug\2DPlateform.pdb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Player\Player.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Player\player_Square.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Environment\grass.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Background.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Background\Game.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Bullet.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\Content\Font.xnb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe.config
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.exe
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\2DPlateform.pdb
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csprojAssemblyReference.cache
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CoreCompileInputs.cache
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\obj\Debug\2DPlateform.csproj.CopyComplete
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\obj\Debug\2DPlateform.exe
+G:\MonoGame\Projects\Tests-Monogame\Francesco\2DPlateform\2DPlateform\obj\Debug\2DPlateform.pdb

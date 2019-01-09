@@ -316,28 +316,30 @@ namespace _2DPlateform.Sprites
         #region Collision
         protected bool IsTouchingLeft(Sprite sprite)
         {
+            Console.WriteLine(this.Velocity.X);
+            return /*this.Rectangle.Bottom > sprite.Rectangle.Top &&
+                this.Rectangle.Top < sprite.Rectangle.Bottom &&*/
+                this.Rectangle.Left + this.Velocity.X < sprite.Rectangle.Right;
+            /*
             return this.Rectangle.Right + this.Velocity.X > sprite.Rectangle.Left &&
               this.Rectangle.Left < sprite.Rectangle.Left &&
               this.Rectangle.Bottom > sprite.Rectangle.Top &&
-              this.Rectangle.Top < sprite.Rectangle.Bottom;
+              this.Rectangle.Top < sprite.Rectangle.Bottom;*/
         }
 
         public bool IsTouchingRight(Sprite sprite)
         {
-            return this.Rectangle.Left + this.Velocity.X < sprite.Rectangle.Right &&
-              this.Rectangle.Right > sprite.Rectangle.Right &&
-              this.Rectangle.Bottom > sprite.Rectangle.Top &&
-              this.Rectangle.Top < sprite.Rectangle.Bottom;
+            return /*this.Rectangle.Bottom > sprite.Rectangle.Top &&
+                this.Rectangle.Top < sprite.Rectangle.Bottom &&*/
+                this.Rectangle.Right + this.Velocity.X > sprite.Rectangle.Left;
         }
 
         protected bool IsTouchingTop(Sprite sprite)
         {
-            return (this.Rectangle.Top < sprite.Rectangle.Bottom && Rectangle.Bottom > sprite.Rectangle.Top);
-
-            /*return this.Rectangle.Bottom + this.Velocity.Y > sprite.Rectangle.Top &&
+            return this.Rectangle.Bottom + this.Velocity.Y > sprite.Rectangle.Top &&
               this.Rectangle.Top < sprite.Rectangle.Top &&
               this.Rectangle.Right > sprite.Rectangle.Left &&
-              this.Rectangle.Left < sprite.Rectangle.Right;*/
+              this.Rectangle.Left < sprite.Rectangle.Right;
         }
 
         protected bool IsTouchingBottom(Sprite sprite)

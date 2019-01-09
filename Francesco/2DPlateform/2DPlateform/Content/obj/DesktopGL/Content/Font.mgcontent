@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/03-Personal projects/2DPlateform/2DPlateform/Content/Font.spritefont</SourceFile>
-  <SourceTime>2018-12-08T17:35:46+01:00</SourceTime>
-  <DestFile>F:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/03-Personal projects/2DPlateform/2DPlateform/Content/bin/DesktopGL/Content/Font.xnb</DestFile>
-  <DestTime>2019-01-08T13:42:42+01:00</DestTime>
+  <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Font.spritefont</SourceFile>
+  <SourceTime>2019-01-08T15:58:40.8897713+01:00</SourceTime>
+  <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/bin/DesktopGL/Content/Font.xnb</DestFile>
+  <DestTime>2019-01-09T13:22:22.3402653+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
