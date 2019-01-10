@@ -54,6 +54,7 @@
     <Compile Include="Sprites\Ground.cs" />
     <Compile Include="Sprites\ICollidable.cs" />
     <Compile Include="Sprites\Creature.cs" />
+    <Compile Include="Sprites\IMovable.cs" />
     <Compile Include="Sprites\Player.cs" />
     <Compile Include="Sprites\Sprite.cs" />
     <Compile Include="States\GameState.cs" />

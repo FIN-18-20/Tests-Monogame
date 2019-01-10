@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Background/Background.png</SourceFile>
+  <SourceFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Background/Background.png</SourceFile>
   <SourceTime>2019-01-08T15:58:40.8327713+01:00</SourceTime>
-  <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/bin/DesktopGL/Content/Background/Background.xnb</DestFile>
-  <DestTime>2019-01-09T13:22:21.9932653+01:00</DestTime>
+  <DestFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/bin/DesktopGL/Content/Background/Background.xnb</DestFile>
+  <DestTime>2019-01-10T09:57:57.5280076+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

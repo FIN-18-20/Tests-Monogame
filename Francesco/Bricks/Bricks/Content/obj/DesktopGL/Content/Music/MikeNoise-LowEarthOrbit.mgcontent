@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MikeNoise-LowEarthOrbit.mp3</SourceFile>
+  <SourceFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MikeNoise-LowEarthOrbit.mp3</SourceFile>
   <SourceTime>2018-12-18T15:46:15.9072414+01:00</SourceTime>
-  <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Music/MikeNoise-LowEarthOrbit.xnb</DestFile>
-  <DestTime>2019-01-08T15:39:10.6244561+01:00</DestTime>
+  <DestFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Music/MikeNoise-LowEarthOrbit.xnb</DestFile>
+  <DestTime>2019-01-10T10:10:08.9260076+01:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Music/MikeNoise-LowEarthOrbit.ogg</string>
+    <string>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Music/MikeNoise-LowEarthOrbit.ogg</string>
   </BuildOutput>
 </PipelineBuildEvent>

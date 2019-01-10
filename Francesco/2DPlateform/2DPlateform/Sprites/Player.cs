@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace _2DPlateform.Sprites
 {
-    public class Player : Creature
+    public class Player : Creature, IMovable
     {
         private float _shootTimer = 0f;
 
@@ -22,7 +22,6 @@ namespace _2DPlateform.Sprites
 
         private bool _onGround = false;
 
-        private const float GRAVITY = 1f;
 
         public bool IsDead
         {
@@ -108,30 +107,22 @@ namespace _2DPlateform.Sprites
                 }
             }*/
 
-
             foreach (Sprite spriteA in sprites)
             {
                 foreach (Sprite spriteB in sprites)
                 {
-                    if (!(spriteA is ICollidable) || !(spriteB is ICollidable))
+                    if (!(spriteA is IMovable) || !(spriteA is ICollidable) || !(spriteB is ICollidable))
                         continue;
 
-                    if (spriteA == spriteB)
+                    if (spriteA.Equals(spriteB))
                         continue;
 
-                    if (spriteA.CollisionArea.Intersects(spriteB.CollisionArea))
-                    {
                         CheckCollisions(spriteB);
-                    }
-                       
-
-                    /*if (spriteA.Intersects(spriteB))
-                        ((ICollidable)spriteA).OnCollide(spriteB);*/
                 }
             }
-
+            
             //Gravité
-            if(!_onGround)
+            if (!_onGround)
                 Velocity.Y += GRAVITY;
 
             Position += Velocity;
@@ -149,19 +140,26 @@ namespace _2DPlateform.Sprites
 
         private void CheckCollisions(Sprite sprite)
         {
-            if (IsTouchingBottom(sprite))
+            if (IsTouchingBottom(sprite) != -1)
             {
-                Velocity.Y = 0;
+               Velocity.Y = IsTouchingBottom(sprite);
             }
 
-            if (IsTouchingTop(sprite) && sprite is Ground)
+            if (IsTouchingTop(sprite) != -1 && sprite is Ground)
             {
                 _onGround = true;
+                int diff = IsTouchingTop(sprite);
+                Velocity.Y = diff;
             }
-            if (IsTouchingLeft(sprite) || IsTouchingRight(sprite))
+            if (IsTouchingLeft(sprite))
             {
-                Console.WriteLine("Here");
-                Velocity.X = 0;
+                Console.WriteLine("Right");
+                //Velocity.X = 0;
+            }
+            if(IsTouchingRight(sprite) != -1)
+            {
+                Console.WriteLine("Left");
+                Velocity.X = IsTouchingRight(sprite);
             }
         }
 
@@ -177,7 +175,7 @@ namespace _2DPlateform.Sprites
             if (_jumpDuration <= _JUMP_TIME / 2)
             {
                 _onGround = true;
-                Velocity += new Vector2(0, -4);
+                Velocity += new Vector2(0, -5);
             }
             else if (_jumpDuration <= _JUMP_TIME)
             {

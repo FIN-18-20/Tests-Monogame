@@ -12,6 +12,8 @@ namespace _2DPlateform.Sprites
 {
     public class Sprite : Component, ICloneable
     {
+        protected const float GRAVITY = 1f;
+
         protected Dictionary<string, Animation> _animations;
 
         protected AnimationManager _animationManager;
@@ -314,12 +316,14 @@ namespace _2DPlateform.Sprites
         }
 
         #region Collision
-        protected bool IsTouchingLeft(Sprite sprite)
+        protected int IsTouchingRight(Sprite sprite)
         {
-            Console.WriteLine(this.Velocity.X);
-            return /*this.Rectangle.Bottom > sprite.Rectangle.Top &&
-                this.Rectangle.Top < sprite.Rectangle.Bottom &&*/
-                this.Rectangle.Left + this.Velocity.X < sprite.Rectangle.Right;
+            if (this.Rectangle.Bottom > sprite.Rectangle.Top &&
+                this.Rectangle.Top < sprite.Rectangle.Bottom &&
+                    this.Rectangle.Left - this.Velocity.X <= sprite.Rectangle.Right)
+                return sprite.Rectangle.Right - this.Rectangle.Left;
+            else return -1;
+                //
             /*
             return this.Rectangle.Right + this.Velocity.X > sprite.Rectangle.Left &&
               this.Rectangle.Left < sprite.Rectangle.Left &&
@@ -327,27 +331,33 @@ namespace _2DPlateform.Sprites
               this.Rectangle.Top < sprite.Rectangle.Bottom;*/
         }
 
-        public bool IsTouchingRight(Sprite sprite)
+        public bool IsTouchingLeft(Sprite sprite)
         {
-            return /*this.Rectangle.Bottom > sprite.Rectangle.Top &&
-                this.Rectangle.Top < sprite.Rectangle.Bottom &&*/
+            return this.Rectangle.Bottom > sprite.Rectangle.Top &&
+                this.Rectangle.Top < sprite.Rectangle.Bottom &&
                 this.Rectangle.Right + this.Velocity.X > sprite.Rectangle.Left;
         }
 
-        protected bool IsTouchingTop(Sprite sprite)
+        protected int IsTouchingTop(Sprite sprite)
         {
-            return this.Rectangle.Bottom + this.Velocity.Y > sprite.Rectangle.Top &&
-              this.Rectangle.Top < sprite.Rectangle.Top &&
-              this.Rectangle.Right > sprite.Rectangle.Left &&
-              this.Rectangle.Left < sprite.Rectangle.Right;
+            if (this.Rectangle.Bottom + this.Velocity.Y + GRAVITY >= sprite.Rectangle.Top &&
+              this.Rectangle.Bottom - this.Velocity.Y - GRAVITY < sprite.Rectangle.Top &&
+              this.Rectangle.Right >= sprite.Rectangle.Left &&
+              this.Rectangle.Left <= sprite.Rectangle.Right)
+                return sprite.Rectangle.Top - this.Rectangle.Bottom;
+            else
+                return -1;
         }
 
-        protected bool IsTouchingBottom(Sprite sprite)
+        protected int IsTouchingBottom(Sprite sprite)
         {
-            return this.Rectangle.Top + this.Velocity.Y < sprite.Rectangle.Bottom &&
+            if (this.Rectangle.Top <= sprite.Rectangle.Bottom &&
               this.Rectangle.Bottom > sprite.Rectangle.Bottom &&
               this.Rectangle.Right > sprite.Rectangle.Left &&
-              this.Rectangle.Left < sprite.Rectangle.Right;
+              this.Rectangle.Left < sprite.Rectangle.Right)
+                return sprite.Rectangle.Bottom - this.Rectangle.Top;
+            else
+                return -1;
         }
 
         #endregion

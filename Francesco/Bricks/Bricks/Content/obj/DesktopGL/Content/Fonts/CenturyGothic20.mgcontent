@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Fonts/CenturyGothic20.spritefont</SourceFile>
+  <SourceFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Fonts/CenturyGothic20.spritefont</SourceFile>
   <SourceTime>2018-12-12T16:33:34.0402675+01:00</SourceTime>
-  <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Fonts/CenturyGothic20.xnb</DestFile>
-  <DestTime>2019-01-08T15:39:05.5044561+01:00</DestTime>
+  <DestFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Fonts/CenturyGothic20.xnb</DestFile>
+  <DestTime>2019-01-10T10:10:03.3830076+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
