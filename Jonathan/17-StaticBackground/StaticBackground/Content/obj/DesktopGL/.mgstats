@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/17-StaticBackground/StaticBackground/Content/Background.png","E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/17-StaticBackground/StaticBackground/Content/bin/DesktopGL/Background.xnb","TextureProcessor","Texture2DContent",2637,1536085,0,1408121
+"E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/17-StaticBackground/StaticBackground/Content/Square.png","E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/17-StaticBackground/StaticBackground/Content/bin/DesktopGL/Square.xnb","TextureProcessor","Texture2DContent",216,10085,0,0079998

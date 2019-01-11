@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/background.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/bird.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/game_buttons.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/gameover.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/getready.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/ground.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/logo.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/medals.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/new.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/numbers_large.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/numbers_small.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/pipe_bot.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/pipe_top.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/score_box.png</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/button_clic.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/button_hover.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/flap.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/flap2.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/pipe_hit.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/pipe_hit2.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/pipe_pass.wav</File>
+    <File>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/graphics/menu_buttons.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
