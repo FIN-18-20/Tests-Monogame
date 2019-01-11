@@ -151,15 +151,17 @@ namespace _2DPlateform.Sprites
                 int diff = IsTouchingTop(sprite);
                 Velocity.Y = diff;
             }
-            if (IsTouchingLeft(sprite))
+            if (IsTouchingLeft(sprite) != -1)
             {
-                Console.WriteLine("Right");
-                //Velocity.X = 0;
+                Console.WriteLine("Left");
+                if(Velocity.X > 0)
+                    Velocity.X = IsTouchingLeft(sprite);
             }
             if(IsTouchingRight(sprite) != -1)
             {
-                Console.WriteLine("Left");
-                Velocity.X = IsTouchingRight(sprite);
+                Console.WriteLine("Right");
+                if (Velocity.X < 0)
+                    Velocity.X = IsTouchingRight(sprite);
             }
         }
 

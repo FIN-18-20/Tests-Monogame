@@ -4,13 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Background/Background.png</File>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Background/Game.png</File>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Bullet.png</File>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Environment/grass.png</File>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Font.spritefont</File>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Player/p1_stand.png</File>
-    <File>F:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Player/player_Square.png</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Background/Background.png</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Background/Game.png</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Bullet.png</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Environment/grass.png</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Font.spritefont</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Player/p1_stand.png</File>
+    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/2DPlateform/2DPlateform/Content/Player/player_Square.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MonoGame.Extended.Tiled;
+using MonoGame.Extended.Gui;
 
 namespace _2DPlateform.Sprites
 {
@@ -320,22 +322,20 @@ namespace _2DPlateform.Sprites
         {
             if (this.Rectangle.Bottom > sprite.Rectangle.Top &&
                 this.Rectangle.Top < sprite.Rectangle.Bottom &&
-                    this.Rectangle.Left - this.Velocity.X <= sprite.Rectangle.Right)
+                    this.Rectangle.Left <= sprite.Rectangle.Right &&
+                    this.Rectangle.Left > sprite.Rectangle.Left)
                 return sprite.Rectangle.Right - this.Rectangle.Left;
             else return -1;
-                //
-            /*
-            return this.Rectangle.Right + this.Velocity.X > sprite.Rectangle.Left &&
-              this.Rectangle.Left < sprite.Rectangle.Left &&
-              this.Rectangle.Bottom > sprite.Rectangle.Top &&
-              this.Rectangle.Top < sprite.Rectangle.Bottom;*/
         }
 
-        public bool IsTouchingLeft(Sprite sprite)
+        public int IsTouchingLeft(Sprite sprite)
         {
-            return this.Rectangle.Bottom > sprite.Rectangle.Top &&
+            if (this.Rectangle.Bottom > sprite.Rectangle.Top &&
                 this.Rectangle.Top < sprite.Rectangle.Bottom &&
-                this.Rectangle.Right + this.Velocity.X > sprite.Rectangle.Left;
+                    this.Rectangle.Right >= sprite.Rectangle.Left &&
+                    this.Rectangle.Right < sprite.Rectangle.Right)
+                return sprite.Rectangle.Left - this.Rectangle.Right;
+            else return -1;
         }
 
         protected int IsTouchingTop(Sprite sprite)
