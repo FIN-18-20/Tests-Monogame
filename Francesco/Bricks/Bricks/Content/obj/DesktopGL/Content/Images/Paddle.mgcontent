@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/Paddle.png</SourceFile>
+  <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/Paddle.png</SourceFile>
   <SourceTime>2018-12-12T16:33:34.0462675+01:00</SourceTime>
-  <DestFile>F:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Images/Paddle.xnb</DestFile>
-  <DestTime>2019-01-10T10:10:03.4230076+01:00</DestTime>
+  <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Images/Paddle.xnb</DestFile>
+  <DestTime>2019-01-11T08:37:25.690844+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
