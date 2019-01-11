@@ -1,0 +1,94 @@
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\background.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\bird.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\gameover.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\game_buttons.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\getready.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\ground.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\logo.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\medals.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\menu_buttons.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\new.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\numbers_large.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\numbers_small.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\pipe_bot.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\pipe_top.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\graphics\score_box.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\button_clic.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\button_hover.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\flap.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\flap2.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\pipe_hit.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\pipe_hit2.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\sounds\pipe_pass.xnb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\FlappyBird_new.exe
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\FlappyBird_new.pdb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\MonoGame.Framework.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.XAudio2.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct3D11.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.DXGI.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct2D1.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.XInput.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.RawInput.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct3D9.dll
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\MonoGame.Framework.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.XAudio2.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct3D11.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.DXGI.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct2D1.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.XInput.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.RawInput.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct3D9.xml
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\obj\x86\Debug\FlappyBird_new.exe
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\obj\x86\Debug\FlappyBird_new.pdb
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\obj\x86\Debug\FlappyBird_new.csprojResolveAssemblyReference.cache
+D:\Mes Documents\Visual Studio 2012\Projects\FlappyBird_new\FlappyBird_new\bin\Windows\Debug\Content\default.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\button_clic.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\button_hover.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\flap.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\flap2.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\pipe_hit.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\pipe_hit2.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\sounds\pipe_pass.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\background.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\bird.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\gameover.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\game_buttons.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\getready.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\ground.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\logo.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\medals.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\menu_buttons.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\new.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\numbers_large.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\numbers_small.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\pipe_bot.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\pipe_top.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\Content\graphics\score_box.xnb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\FlappyBird_new.exe.config
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\FlappyBird_new.exe
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\FlappyBird_new.pdb
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\obj\x86\Debug\FlappyBird_new.csprojAssemblyReference.cache
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\obj\x86\Debug\FlappyBird_new.csproj.CoreCompileInputs.cache
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\obj\x86\Debug\FlappyBird_new.csproj.CopyComplete
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\obj\x86\Debug\FlappyBird_new.exe
+C:\Users\friedlijo\Desktop\FlappyBird_Project\FlappyBird_new\obj\x86\Debug\FlappyBird_new.pdb

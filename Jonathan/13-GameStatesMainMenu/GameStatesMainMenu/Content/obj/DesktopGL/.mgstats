@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/13-GameStatesMainMenu/GameStatesMainMenu/Content/Controls/Button.png","E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/13-GameStatesMainMenu/GameStatesMainMenu/Content/bin/DesktopGL/Controls/Button.xnb","TextureProcessor","Texture2DContent",279,15085,0,1759495
+"E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/13-GameStatesMainMenu/GameStatesMainMenu/Content/Fonts/Font.spritefont","E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/13-GameStatesMainMenu/GameStatesMainMenu/Content/bin/DesktopGL/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21521,0,1557278

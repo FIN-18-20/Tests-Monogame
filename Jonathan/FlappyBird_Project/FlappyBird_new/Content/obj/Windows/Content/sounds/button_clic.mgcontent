@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/sounds/button_clic.wav</SourceFile>
+  <SourceTime>2015-05-23T18:37:40+02:00</SourceTime>
+  <DestFile>C:/Users/friedlijo/Desktop/FlappyBird_Project/FlappyBird_new/Content/bin/Windows/Content/sounds/button_clic.xnb</DestFile>
+  <DestTime>2019-01-11T09:57:51.9674799+01:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2018-09-23T23:55:52+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
