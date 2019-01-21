@@ -1,0 +1,7 @@
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\bin\Debug\Test.exe.config
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\bin\Debug\Test.exe
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\bin\Debug\Test.pdb
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\obj\Debug\Test.exe
+C:\GameOfTheYear\Tests-Monogame\Francesco\Test\Test\obj\Debug\Test.pdb
