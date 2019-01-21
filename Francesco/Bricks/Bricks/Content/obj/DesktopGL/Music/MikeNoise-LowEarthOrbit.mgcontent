@@ -3,7 +3,7 @@
   <SourceFile>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MikeNoise-LowEarthOrbit.mp3</SourceFile>
   <SourceTime>2019-01-11T11:57:21.7014436+01:00</SourceTime>
   <DestFile>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Music/MikeNoise-LowEarthOrbit.xnb</DestFile>
-  <DestTime>2019-01-21T09:06:09.9042448+01:00</DestTime>
+  <DestTime>2019-01-21T09:25:38.809601+01:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>SongProcessor</Processor>

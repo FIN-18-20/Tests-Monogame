@@ -17,8 +17,8 @@ namespace Bricks
         private Paddle _paddle;
         private _wall _wall;
         private GameBorder _gameBorder;
-        private _ball _ball;
-        private _ball _staticBall; //used to draw image next to remaining _ball count at top of screen
+        private Ball _ball;
+        private Ball _staticBall; //used to draw image next to remaining _ball count at top of screen
 
         private int _screenWidth = 0;
         private int _screenHeight = 0;
@@ -77,8 +77,8 @@ namespace Bricks
             _paddle = new Paddle(paddleX, paddleY, _screenWidth, spriteBatch, gameContent);
             _wall = new _wall(1, 50, spriteBatch, gameContent);
             _gameBorder = new GameBorder(_screenWidth, _screenHeight, spriteBatch, gameContent);
-            _ball = new _ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
-            _staticBall = new _ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
+            _ball = new Ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
+            _staticBall = new Ball(_screenWidth, _screenHeight, spriteBatch, gameContent);
             _staticBall.X = 25;
             _staticBall.Y = 25;
             _staticBall.Visible = true;

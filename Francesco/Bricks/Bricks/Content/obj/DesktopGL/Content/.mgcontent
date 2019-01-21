@@ -4,6 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Fonts/CenturyGothic20.spritefont</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/ball.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/brick.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/paddle.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/pixel.png</File>
     <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MikeNoise-LowEarthOrbit.mp3</File>
     <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MitchMurder-RavagedSkies.mp3</File>
     <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/NikyNine-Road.mp3</File>
@@ -14,6 +19,11 @@
     <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/WallBounceSound.wav</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

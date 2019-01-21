@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/Paddle.png</SourceFile>
-  <SourceTime>2018-12-12T16:33:34.0462675+01:00</SourceTime>
-  <DestFile>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Images/Paddle.xnb</DestFile>
-  <DestTime>2019-01-11T08:37:25.690844+01:00</DestTime>
+  <SourceFile>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/paddle.png</SourceFile>
+  <SourceTime>2019-01-11T11:57:21.6034488+01:00</SourceTime>
+  <DestFile>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/bin/DesktopGL/Content/Images/paddle.xnb</DestFile>
+  <DestTime>2019-01-21T09:21:09.6582166+01:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2018-09-23T23:55:52+02:00</ImporterTime>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2018-09-23T23:55:52+02:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>
