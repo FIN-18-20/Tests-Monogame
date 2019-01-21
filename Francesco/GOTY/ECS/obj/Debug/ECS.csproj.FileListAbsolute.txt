@@ -1,0 +1,2 @@
+C:\GameOfTheYear\Tests-Monogame\Francesco\GOTY\ECS\obj\Debug\ECS.csprojAssemblyReference.cache
+C:\GameOfTheYear\Tests-Monogame\Francesco\GOTY\ECS\obj\Debug\ECS.csproj.CoreCompileInputs.cache
