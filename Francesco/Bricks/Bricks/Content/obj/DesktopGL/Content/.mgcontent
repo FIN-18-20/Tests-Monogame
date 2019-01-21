@@ -4,26 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Fonts/CenturyGothic20.spritefont</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/ball.png</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/brick.png</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/Paddle.png</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Images/pixel.png</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MikeNoise-LowEarthOrbit.mp3</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MitchMurder-RavagedSkies.mp3</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/NikyNine-Road.mp3</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/BrickSound.wav</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/MissSound.wav</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/PaddleBounceSound.wav</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/StartSound.wav</File>
-    <File>G:/MonoGame/Projects/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/WallBounceSound.wav</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MikeNoise-LowEarthOrbit.mp3</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/MitchMurder-RavagedSkies.mp3</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Music/NikyNine-Road.mp3</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/BrickSound.wav</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/MissSound.wav</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/PaddleBounceSound.wav</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/StartSound.wav</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Francesco/Bricks/Bricks/Content/Sounds/WallBounceSound.wav</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
