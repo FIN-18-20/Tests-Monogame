@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Explosion.png</SourceFile>
-  <SourceTime>2018-12-23T01:27:14+01:00</SourceTime>
-  <DestFile>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/bin/DesktopGL/Content/Explosion.xnb</DestFile>
-  <DestTime>2018-12-23T01:28:10+01:00</DestTime>
+  <SourceFile>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Explosion.png</SourceFile>
+  <SourceTime>2019-01-11T11:57:27.3922818+01:00</SourceTime>
+  <DestFile>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/bin/DesktopGL/Content/Explosion.xnb</DestFile>
+  <DestTime>2019-01-21T09:15:51.9985641+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

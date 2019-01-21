@@ -4,15 +4,15 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Background/Game.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Background/MainMenu.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Bullet.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Button.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Explosion.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Font.spritefont</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Ships/Enemy_1.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Ships/Enemy_2.png</File>
-    <File>E:/ETML/PROJETS/GameOfTheYear/Commun1/Valentin/Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Ships/Player.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Background/Game.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Background/MainMenu.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Bullet.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Button.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Explosion.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Font.spritefont</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Ships/Enemy_1.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Ships/Enemy_2.png</File>
+    <File>C:/GameOfTheYear/Tests-Monogame/Valentin/01-Tutorials/20-SpaceShooterGame/SpaceShooterGame/Content/Ships/Player.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
