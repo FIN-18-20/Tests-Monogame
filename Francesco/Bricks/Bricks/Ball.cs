@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Bricks
 {
-    class _ball
+    class Ball
     {
         public float X { get; set; }
         public float Y { get; set; }
@@ -30,7 +30,7 @@ namespace Bricks
         private SpriteBatch spriteBatch;  //allows us to write on backbuffer when we need to draw self
         private GameContent gameContent;
 
-        public _ball(float screenWidth, float screenHeight, SpriteBatch spriteBatch, GameContent gameContent)
+        public Ball(float screenWidth, float screenHeight, SpriteBatch spriteBatch, GameContent gameContent)
         {
             X = 0;
             Y = 0;
