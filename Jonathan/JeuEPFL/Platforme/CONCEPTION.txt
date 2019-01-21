@@ -1,0 +1,90 @@
+﻿>>  BACKGROUD (ajouté, extends DECO)
+  - Crée un background qui prend toute la taille de l'écran et s'affiche tout derrière (priorité -10)
+  - Ajouté pour le côté esthétique
+
+>>  CHECKPOINT (ajouté, extends EXIT)
+  - Crée une zone non-solide qui sauvegarde l'avance du joueur dans un niveau lorsqu'il la traverse
+  - Ajouté pour séparer des niveaux trop durs en plusieurs parties
+
+>>  CLOUD (ajouté, extends MOVER)
+  - Crée un nuage translucide non-solide qui se déplace d'un point à un autre comme un mover
+  - Ajouté pour le côté esthétique
+
+>>  DAMAGE (modifié)
+  - Rajouté le dégat de type LASER
+
+>>  DECO (ajouté, extends ACTOR)
+  - Crée une nouvelle décoration non-solide, peut être dessinée à l'arrière plan ou au premier plan, pour un effet de perspective
+  - Ajouté pour le côté esthétique
+
+>>  DOOR (modifié)
+  - Changé le fait que le cadenas disparaisse au moment de ramasser la clé mais plutôt lorsque le joueur touche la porte
+
+>>  EXIT (modifié ?)
+  - Le joueur doit appuier sur une touche pour entrer dans la porte
+
+>>  FIREBALL (modifié, extends PROJECTILE)
+  - Rajouté le fait qu'elle disparaisse après un certain cooldown
+
+>>  HAT (ajouté, extends ACTOR)
+  - Affiche un chapeau de Noël sur la tête du joueur et change de direction et de taille en fonction
+  - Ajouté pour le côté esthétique
+
+>>  HEART (modifié)
+  - Rajouté une petite animation
+
+>>  HIDDENBLOCK (ajouté, extends BLOCK)
+  - Crée un nouveau block translucide et non-solide qui devient opaque et solide au moyen d'un signal
+  - Ajouté pour plus de variation dans les énigmes
+
+>>  JUMPER (modifié)
+  - Légèrement changé la hit-box du jumper pour que le joueur rebondisse vraiment dessus
+
+>>  LASER (ajouté, extends ACTOR)
+  - Crée un laser soit vertical soit horizontal qui inflige de lourds dégats au joueur qui passe à travers
+  - Activable ou désactivable par signal
+  - Ajouté pour une plus grande variété de pièges
+
+>>  LEVEL (modifié)
+  - Enlevé le fadein et remplacé par un END() pour les transitions après la mort du joueur ou changement de niveau
+
+>>  LIMITS (modifié?)
+  - Part toujours de l'origine (0,0) pour faciliter la construction des niveaux (limiter les coordonnées négatives)
+
+>>  MOVER (modifié)
+  - Rajouté le fait que les objets en collision avec le mover restent collés au mover (du moins quand il se déplace à l'horizontale)
+
+>>  OVERLAY (modifié)
+  - Changé sa position au dessus du joueur à une position fixe dans le coin de l'écran afin de pouvoir afficher le chapeau de Noël
+
+>>  PLAYER (modifié)
+  - Amélioré la maniabilité en supprimant sa vitesse horizontale dès qu'on n'appuie plus sur le clavier
+  - Remplacé le fait qu'on puisse grimper sur les murs par un walljump et un 'mid-air' jump
+  - Rajouté la variation de la taille pour plus de possibilités d'obstacles
+  - Rajouté un dé-zoom pour mieux voir le niveau dans sa totalité
+  - Rajouté le fait que le joueur meure en se faisant trop compresser
+  - Rajouté une touche pour retourner au menu et une pour recommencer le niveau
+  - Changé les sprites du joueur lorsqu'il va à gauche ou à droite
+
+>>  PROJECTILE (ajouté, abstract extends ACTOR)
+  - Classe abstraite regroupant les différents projectiles
+  - Ajoutée pour éviter du copié-collé entre les plusieurs projectiles
+
+>>  SIMULATOR (modifié)
+  - Changé légèrement la méthode hurt() afin qu'elle n'affecte pas l'instigator
+
+>>  SNOWBALL (ajouté, extends PROJECTILE)
+  - Crée une boule de neige qui peut être lancée par le joueur et s'arrête au contact d'un solide pour ensuite fondre lentement
+  - Ajouté pour le côté esthétique et ludique, ne fait donc pas de dégâts
+
+>>  SPIKE (modifié)
+  - Changé la méthode draw() afin d'afficher plusieurs sprites de piques dans une seule hit-box
+  - Modifié le fait qu'un joueur prenne des dégats lorsqu'il tombe dessus par des dégâts toutes les 1.5s
+
+>>  TERRAIN (ajouté, extends BLOCK)
+  - Crée une surface solide au moyen de plusieurs sprites alignés mais avec une seule hit-box
+  - Les sprites de la rangée supérieure et des deux coins supérieurs sont différents des autres
+  - Ajouté pour enlever certains problèmes de collision et augmenter l'efficacité de la construction de niveaux
+
+>> TORCH (modifié)
+  - Changé le fait que la torche enlève seulement la première boule de feu qui collisionne avec
